@@ -3,3 +3,5 @@ I made this repo to help myself and new editors, create missions/campaigns in Ar
 
 ## Content
 Right now this repo contains a basic script called by radio trigger. This script wil tell a soldier(He starts in a animated state) to get in a car with a driver(already in it), when he is in a follow cam will follow the car. the car will drop off the soldier and then the soldier will move to a location. 
+
+Now a convoy script the get out doesnt work yet
