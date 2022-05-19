@@ -1,0 +1,10 @@
+class CfGFunctions
+{
+	class TEST
+	{
+		class TestFolder {
+			class groupInVehicle {};
+		};
+
+	};
+};
