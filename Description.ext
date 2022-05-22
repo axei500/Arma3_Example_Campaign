@@ -1,10 +1,19 @@
 class CfGFunctions
 {
-	class TEST
+	class Group
 	{
-		class TestFolder {
+		class Group {
 			class groupInVehicle {};
+			class groupGetInVehicle {};
+			class groupWaypointCompleted {};
 		};
-
+	};
+	class Camera
+	{
+		class Camera {
+			class cameraCreate {};
+			class cameraFollow {};
+			class cameraDestroy {};
+		};
 	};
 };

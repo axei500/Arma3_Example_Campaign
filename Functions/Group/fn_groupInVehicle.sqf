@@ -2,7 +2,7 @@
 	Author: Axel Huybrechts
 
 	Description:
-		Orders a group of soldiers to get in a vehicle. The same as a GetIn waypoint, this is the script version.
+		Checks if a group of soldiers is in a vehicle. 
 
 	Parameter(s):
 		0: Group - (Required) the group that needs to get in a vehicle.
