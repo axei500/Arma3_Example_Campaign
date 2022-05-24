@@ -7,6 +7,8 @@ class CfGFunctions
 			class groupGetInVehicle {};
 			class groupWaypointCompleted {};
 			class convoySetParameters {};
+			class groupSetAnimations {};
+			class groupGetOut {};
 		};
 	};
 	class Camera

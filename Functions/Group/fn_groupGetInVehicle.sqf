@@ -20,6 +20,8 @@ params [
 ["_vehicle", objNull, [objNull]]
 ];
 
+// When using get out function that i made this will be set to false so we have to set it back to true
+units _group allowGetIn true;
 // https://community.bistudio.com/wiki/addWaypoint
 _wp = _group addWaypoint [position _vehicle, 0];
 // https://community.bistudio.com/wiki/setWaypointType
@@ -27,8 +29,5 @@ _wp setWaypointType "GETIN";
 // when using get in you need to use this to attach to vechille
 // https://community.bistudio.com/wiki/waypointAttachVehicle
 _wp waypointAttachVehicle _vehicle;
-
-// If you don't wait here the soldier wil keep running in the starting position
-sleep 1;
 
 true;
